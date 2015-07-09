@@ -8,7 +8,7 @@ import spire.implicits.IntAlgebra
 import spire.math.Rational
 import spire.syntax.literals._
 
-object StochasticLambdaCalculus extends Specification {
+object ProbabilityMonadSpec extends Specification {
 
   "iffy (stochastic if)" should {
     "map fair boolean to d6 + (d6+d6)" in {
